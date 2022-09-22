@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+<header>
+<nav>
+<a href="./index.html"> <h1>Buddy O<span>yay</span>e Group</h1></a>  
+</nav>
+</header>
+
+ <main>
+<section>
+<form class="signup"> 
+    <div>
+    <header>
+    <h1> Sign up for Buddy Update</h1>
+    <p class="login">Creat a free account <a id="login" href="./login.html"> log in</a> </p>
+</header>
+</div>
+    <div>
+    <label for="Name">Name</label>
+    <input  class="textinput" id="name" type="text" placeholder="First Last"/>
+</div>
+<div>
+    <label for="Email">Email</label>
+    <input  class="textinput" id="email" type="text" placeholder="@example.com"/>
+</div>
+<div>
+    <label for="username">Username</label>
+    <input  class="textinput" id="username" type="text" placeholder="Username"/>
+</div>
+<div>
+    <label for="pass">password (8 characters mininmum): </label>
+    <input class="textinput"type="password" id="pass" name="password"
+           minlength="8" required>
+        </div>
+<div class="form2">
+    <label for="select">Gender</label>
+    <select id="selector">
+<option selected>Male</option>
+<option >Female</option>
+<option >Trans</option>
+ </select>
+</div>
+</div class="form3">
+    <input class="checkbox" id="agreement" type="checkbox" />
+   <label id="para"for="agreement">By creating an account, you agree to <a href="#">our Terms and condition</a> and have read and acknowledge the Global Privacy Statement.</label> 
+</div>
+<div>
+<button>Submit</button>
+</div>
+</div>
+</form>
+</section>
+</main>
+</body>
+</html>
