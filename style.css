@@ -287,3 +287,12 @@ footer p{
     font-style: italic;
     margin-top: 2%;
 }
+
+@media screen and(min-width:768px){
+
+    .two img{
+        width: 10px;
+    }
+
+    
+}
